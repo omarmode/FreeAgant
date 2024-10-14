@@ -1,0 +1,300 @@
+/* تنسيق الصفحة بشكل كامل */
+.overview-container {
+  padding: 20px;
+  background-color: #f4f5f7;
+}
+
+/* القسم الرئيسي في الجزء العلوي */
+.overview-header {
+  background-color: #0a64a0;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url("https://assets.freeagent.com/assets/onboarding/rocket-clouds-37a0555f6afc27528ccef9f56810985bcd888e20af36815b5cc9d3bdc758c14f.png") !important;
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  min-height: 220px;
+}
+
+.overview-header h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.overview-header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* تخصيص شريط التقدم */
+.progress-bar-custom .progress-bar {
+  background-color: #28a745;
+}
+.progress-bar-custom {
+  width: 20%; /* يمكنك تغيير القيمة إلى الحجم المناسب */
+  margin: 0; /* لمحاذاة الشريط في المنتصف */
+}
+
+/* تنسيق قسم Cashflow */
+.chart-section {
+  margin-top: 30px;
+}
+
+.cashflow-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.time-period-button {
+  border: 1px solid #d1d5db;
+  color: #000;
+  background-color: #fff;
+  padding: 6px 15px;
+  font-size: 14px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.time-period-button::after {
+  content: "▼"; /* إضافة سهم صغير */
+  margin-left: 10px;
+  font-size: 12px;
+  color: #000;
+}
+
+.cashflow-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* الرسم البياني */
+.cashflow-chart {
+  flex: 2;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* تقليل الظل */
+  margin-right: 20px;
+}
+
+/* قسم التفاصيل */
+.cashflow-details {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.6;
+}
+
+.cashflow-details h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.cashflow-details p {
+  font-size: 18px;
+  margin: 10px 0;
+  padding-bottom: 10px; /* لضبط المسافة بين النص والخط */
+  border-bottom: 1px solid #e0e0e0; /* الخط الفاصل */
+}
+
+.cashflow-details p:last-child {
+  border-bottom: none; /* إزالة الخط عن آخر عنصر */
+}
+
+.cashflow-details p strong {
+  font-weight: bold;
+}
+
+.cashflow-details p:last-child strong {
+  color: #28a745; /* اللون الأخضر للـ Balance */
+  font-size: 22px; /* تكبير الخط للـ Balance */
+}
+.invoices-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.banking-section,
+.invoices-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.banking-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.banking-section h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.text-muted {
+  color: #6c757d !important;
+  font-size: 14px;
+}
+.cashflow-details p {
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.cashflow-details p:last-child {
+  border-bottom: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.mr-2 {
+  margin-right: 8px;
+}
+/* تنسيق قسم "Expenses" و "Bills" */
+.expenses-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* تنسيق "Profit and Loss" */
+.profit-loss-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.profit-loss-section h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.profit-loss-table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.profit-loss-table td {
+  padding: 8px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.profit-loss-table .text-success {
+  color: #28a745;
+}
+
+.profit-loss-table .text-danger {
+  color: #dc3545;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+/* تنسيق الجدول الرئيسي للأرباح والخسائر */
+/* تنسيق الجدول */
+.fe-ProfitLoss {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.fe-ProfitLoss-header {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.fe-ProfitLoss-item {
+  padding: 10px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.fe-ProfitLoss-item--symbol {
+  font-weight: bold;
+}
+
+.fe-ProfitLoss-total--negative {
+  color: red;
+}
+
+.fe-ProfitLoss-total--positive {
+  color: green;
+}
+
+/* إضافة رموز زائد وناقص ومتساوي */
+.fe-ProfitLoss-item--plus::before {
+  content: "+ ";
+  color: green;
+}
+
+.fe-ProfitLoss-item--minus::before {
+  content: "- ";
+  color: red;
+}
+
+.fe-ProfitLoss-item--equals::before {
+  content: "= ";
+  color: #333;
+}
+
+/* تنسيق الفاصل في نهاية الجدول */
+.fe-DashboardPanel-segment--compact {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.fe-Button--transparent {
+  border: none;
+  color: #007bff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.fe-Button--transparent:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+/* تنسيق قسم التفاصيل */
+.fe-ProfitLoss-adjustments {
+  display: flex;
+  flex-direction: column;
+}
+
+.fe-ProfitLoss-adjustmentItem {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.fe-DashboardPanel-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}

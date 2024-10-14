@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.overview-header {
+  background-image: url("/assets/rocket.png"); // إضافة صورة الصاروخ
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

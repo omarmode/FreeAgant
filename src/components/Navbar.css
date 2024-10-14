@@ -1,0 +1,12 @@
+/* تخصيص المسافة بين الأزرار في شريط التنقل */
+button {
+  margin-right: 10px;
+}
+
+/* أيقونات الجرس والبحث */
+.navbar .fa-search,
+.navbar .fa-bell {
+  font-size: 18px;
+  margin-right: 15px;
+  cursor: pointer;
+}
